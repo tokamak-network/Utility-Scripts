@@ -19,8 +19,7 @@ Each script is stored in its own folder, containing the script itself and any ne
    - A `README.md` file explaining what the script does and how to use it.
 
 For example:
-- [aws_kms_ethereum_signe/](aws_kms_ethereum_signe/): Contains a custom AWS KMS class implementation for signing messages without using a third-party library.
-- [ethersjs-gas-management/](ethersjs-gas-management/): Contains a script to manage gas prices using Ethers.js.
+- [aws_kms_ethereum_signer/](aws_kms_ethereum_signer/): Contains a custom AWS KMS class implementation for signing messages without using a third-party library.
 
 ## Adding New Scripts/Programs
 
@@ -38,5 +37,5 @@ Folder: [aws_kms_ethereum_signer/](aws_kms_ethereum_signer/)
 This folder contains a script for signing messages using AWS KMS. It's designed for secure message signing without exposing private keys.
 
 ```bash
-cd aws_kms_ethereum_signe
+cd aws_kms_ethereum_signer
 node aws_kms_signing.js

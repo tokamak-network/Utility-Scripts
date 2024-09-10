@@ -74,8 +74,8 @@ What the Script Does:
 
 When the script runs successfully, you should see output similar to the following:
 
-Wallet Address: 0xF26f7E0724a5Ce2b6bDe6551D4327FCb53712d25
 ```
+Wallet Address: 0xF26f7E0724a5Ce2b6bDe6551D4327FCb53712d25
 Transaction Response: {
   nonce: 6,
   gasPrice: BigNumber { _hex: '0x01', _isBigNumber: true },

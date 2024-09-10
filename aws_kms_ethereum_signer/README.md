@@ -33,6 +33,10 @@ const kms = new AWS.KMS({
 ```
 Replace YOUR_ACCESS_KEY and YOUR_SECRET_KEY with your actual AWS credentials, and update the region if needed.
 
+Good materials to follow to setup aws kms:
+https://aws.amazon.com/blogs/database/import-ethereum-private-keys-to-aws-kms/
+Tokamak seminar: https://docs.google.com/presentation/d/16y0evB3jwaooTf-10K3AVEB7bUwCSG3uBrUpa8lhuD4/edit?pli=1#slide=id.p1
+
 
 ### Step 3: Set Your AWS KMS Key ID
 
